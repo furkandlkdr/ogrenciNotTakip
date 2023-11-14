@@ -1,0 +1,39 @@
+Ödev Başlığı: "Öğrenci Not Takip Uygulaması"
+Amaç: Öğrencilerinizin static, inner type ve kalıtım kavramlarını anlamalarını ve uygulamalarını
+sağlamak için güncel bir senaryo kullanarak bir ödev hazırlanmıştır. Bu ödev, öğrencilerin C#
+programlama dilinde bu kavramları kullanarak bir öğrenci not takip uygulaması geliştirmelerini
+amaçlar.
+
+Adım 1: Proje Oluşturma
+1. Yeni bir C# Console Uygulaması projesi oluşturun ve projenin adını
+"OgrenciNotTakipUygulamasi" olarak belirleyin.
+
+Adım 2: Ogrenci Sınıfı
+2.1. Bir "Ogrenci" sınıfı oluşturun.
+2.2. Bu sınıf içinde, her bir öğrenci için ad, soyad, numara ve notlarını temsil eden alanları
+tanımlayın.
+2.3. "Ogrenci" sınıfını inner type olarak kullanarak tanımlayın.
+
+Adım 3: Kalıtım (Inheritance)
+3.1. Bir "Personel" sınıfı oluşturun.
+3.2. "Personel" sınıfı, "Ogrenci" sınıfından türetilmelidir. Personel sınıfında çalışanların adı, soyadı ve görevi gibi özellikler olsun.
+
+Adım 4: Static Metotlar
+4.1. "Ogrenci" sınıfına, öğrenci notlarını hesaplayan bir static metot ekleyin. Bu metot,
+öğrencinin notlarını alacak ve genel not ortalamasını döndürecek.
+
+Adım 5: Uygulama Geliştirme
+5.1. Kullanıcıdan öğrenci bilgilerini girmesini isteyin (ad, soyad, numara, notlar).
+5.2. Kullanıcıdan personel bilgilerini girmesini isteyin (ad, soyad, görev).
+5.3. Hesaplanan öğrenci not ortalamasını ve personel bilgilerini ekrana yazdırın.
+
+Adım 6: Test ve Sonuç
+6.1. Ödevinizi test edin ve doğru sonuçlar elde etmek için gerekirse düzeltmeler yapın.
+6.2. Son haliyle öğrencilere sunun ve öğrencilerinizin ödevlerini yapmalarını ve geliştirmelerini sağlayın.
+
+Not 1: Vize sınavına kadar bu tarz toplam 5 ödev olacaktır. Her ödev 3 puan olarak vize
+sınavınıza etki edecektir. Ödevin gönderilmemesi durumunda -2 puan olarak yansıyacaktır.
+Not 2: Her ödevin son gönderilme tarihi dersimizin başlamasından hemen önce olacaktır.
+Not 3 : Ödeviniz sınıfınızdan belirleyeceğimiz bir arakdaşınıza gönderilecek ve arkadaşınızda
+bana iletecektir.
+Not 4 : Ödev klasörde olacak ve klasor ismi okul numarası_ad_soyad’dan oluşacaktır.
