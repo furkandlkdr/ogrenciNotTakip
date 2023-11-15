@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace OgrenciNotTakipUygulaması
 {
-    internal class Insan
+    internal class Personel : Ogrenci.Insan
     {
-        public string ad {  get; set; }
-        public string soyad {  get; set; }
-        public Insan() { }
+        public string gorev {  get; set; }
     }
 }
